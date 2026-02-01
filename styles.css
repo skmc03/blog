@@ -29,12 +29,6 @@ h2 {
     font-size: 1.7rem;
 }
 
-h3 {
-    color: #7dd3fc;
-    margin-top: 45px;
-    font-size: 1.3rem;
-}
-
 p {
     margin: 20px 0;
     font-size: 1.05rem;
@@ -84,13 +78,6 @@ ul {
     font-weight: bold;
 }
 
-.quote {
-    font-style: italic;
-    color: #cfcfcf;
-    margin-top: 12px;
-    font-size: 1.05rem;
-}
-
 .panel {
     background: #141414;
     padding: 50px 40px;
@@ -105,6 +92,19 @@ ul {
     border-radius: 14px;
     margin: 90px 0;
     border-left: 6px solid #f5c400;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.image-row img {
+    width: 30%;
+    max-width: 300px;
+    border-radius: 8px;
 }
 
 footer {
